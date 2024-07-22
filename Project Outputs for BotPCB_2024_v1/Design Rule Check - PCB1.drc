@@ -1,0 +1,72 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\BotPCB_2024_v1\PCB1.PcbDoc
+Date     : 27-02-2024
+Time     : 15:10:31
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=31.496mil) (Max=35.433mil) (Preferred=35.433mil) (InNet('+7.4'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=7.874mil) (Max=11.811mil) (Preferred=11.811mil) (InNet('3.3V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=31.496mil) (Max=35.433mil) (Preferred=35.433mil) (InNet('+5s'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=31.496mil) (Max=35.433mil) (Preferred=35.433mil) (InNet('+5'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=74.803mil) (Max=78.74mil) (Preferred=78.74mil) (InNet('+12'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=74.803mil) (Max=78.74mil) (Preferred=78.74mil) (InNet('NetBattery_VCC_0'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (236.22mil > 100mil) Pad Master-1(11074.094mil,3034.836mil) on Multi-Layer Actual Slot Hole Width = 236.22mil
+   Violation between Hole Size Constraint: (236.22mil > 100mil) Pad Master-2(11330mil,3034.836mil) on Multi-Layer Actual Slot Hole Width = 236.22mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad VCC-0(12070mil,2718.464mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad VCC-1(12070mil,2935mil) on Multi-Layer Actual Hole Size = 118.11mil
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (3.099mil < 10mil) Between Pad Teensy-VBAT(10075mil,1945mil) on Multi-Layer And Via (10090mil,2005mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [3.099mil] / [Bottom Solder] Mask Sliver [3.099mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (9.052mil < 10mil) Between Pad USB_A-1(7410.944mil,2829.882mil) on Multi-Layer And Pad USB_A-SH1(7470mil,2935mil) on Multi-Layer [Top Solder] Mask Sliver [9.052mil] / [Bottom Solder] Mask Sliver [9.052mil]
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 6
+Waived Violations : 0
+Time Elapsed        : 00:00:01
